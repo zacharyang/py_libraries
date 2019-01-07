@@ -1,5 +1,9 @@
 ### Functions for Online News Popularity Analysis ### 
 
+import pandas as pd 
+import numpy as np
+
+
 def tab_missing_values(df):
     """
         Takes a data frame and tabulates all missing values by column 
